@@ -1,0 +1,38 @@
+/* Genel sayfa ayarları */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #d8e2dc, #ffe5ec);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Başlık */
+h1 {
+  color: #6a0572;
+  margin-top: 40px;
+}
+
+/* Paragraf */
+p {
+  color: #333;
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* Buton */
+button {
+  background-color: #f72585;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #b5179e;
+}
