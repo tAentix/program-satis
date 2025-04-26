@@ -1,42 +1,48 @@
-/* Genel sayfa ayarları */
+/* Arka plan ayarı (popüler oyun görselleriyle) */
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Segoe UI', sans-serif;
   background-image: url('https://wallpapercave.com/wp/wp10892843.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  margin: 0;
-  padding: 0;
   text-align: center;
   color: white;
 }
 
+/* Sayfa üzerine yarı saydam koyu filtre */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  padding: 100px 20px;
+  box-sizing: border-box;
+}
+
 /* Başlık */
 h1 {
-  color: #6a0572;
-  margin-top: 40px;
+  font-size: 48px;
+  margin-bottom: 20px;
 }
 
-/* Paragraf */
+/* Açıklama metni */
 p {
-  color: #333;
-  font-size: 18px;
-  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
-/* Buton */
+/* Buton tasarımı */
 button {
-  background-color: #f72585;
-  color: white;
+  background-color: #ff007f;
   border: none;
-  padding: 12px 24px;
-  font-size: 16px;
-  margin-top: 20px;
-  border-radius: 8px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background 0.3s;
 }
 
 button:hover {
-  background-color: #b5179e;
+  background-color: #c4005a;
 }
