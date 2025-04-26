@@ -1,9 +1,8 @@
-/* Arka plan ayarı (popüler oyun görselleriyle) */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-image: url('https://wallpapercave.com/wp/wp10892843.jpg');
+  background-image: url('https://images.unsplash.com/photo-1606813902634-9133f03792a1?auto=format&fit=crop&w=1470&q=80');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -11,7 +10,6 @@ body {
   color: white;
 }
 
-/* Sayfa üzerine yarı saydam koyu filtre */
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
   min-height: 100vh;
@@ -19,19 +17,16 @@ body {
   box-sizing: border-box;
 }
 
-/* Başlık */
 h1 {
   font-size: 48px;
   margin-bottom: 20px;
 }
 
-/* Açıklama metni */
 p {
   font-size: 20px;
   margin-bottom: 30px;
 }
 
-/* Buton tasarımı */
 button {
   background-color: #ff007f;
   border: none;
