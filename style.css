@@ -1,8 +1,14 @@
 body {
+    background-image: url('https://images.pexels.com/photos/13669701/pexels-photo-13669701.jpeg'), 
+                      url('https://images.pexels.com/photos/2042202/pexels-photo-2042202.jpeg'), 
+                      url('https://images.pexels.com/photos/2832469/pexels-photo-2832469.jpeg'), 
+                      url('https://images.pexels.com/photos/3559753/pexels-photo-3559753.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6); /* Görsellerin üzerine koyu bir renk ekler */
     margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #141414; /* Arka plan rengini koyu yapıyoruz */
     color: white;
     display: flex;
     justify-content: center;
@@ -11,14 +17,12 @@ body {
     text-align: center;
 }
 
-/* Container, sayfa içeriğini ortalamak için */
 .container {
-    z-index: 1;
     position: relative;
+    z-index: 1;
     color: white;
 }
 
-/* Başlık ve açıklama stilini düzenleme */
 h1 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -32,7 +36,6 @@ p {
     margin-bottom: 30px;
 }
 
-/* Buton stilini özelleştirme */
 button {
     background-color: #3498db;
     color: white;
@@ -46,15 +49,6 @@ button {
 
 button:hover {
     background-color: #2980b9;
-}
-
-/* Arka planda oyun görsellerini kullanma */
-body {
-    background-image: url('valorant.jpg'), url('lol.jpg'), url('cs2.jpg'), url('dota2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.6); /* Görsellerin üzerine koyu bir renk ekler */
 }
 
 /* Responsive tasarım */
